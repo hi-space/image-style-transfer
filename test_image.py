@@ -4,13 +4,12 @@ import torch
 import torchvision.transforms as transforms
 
 from models import TransformerNet
-from utils import load_image, save_image
+from utils import load_image, save_image, get_device
 from test_config import *
 
 
 if __name__ == "__main__":    
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print('device: ', device)
+    device = get_device()
 
     content_image = load_image(test_image, scale=2) #FIXME
     content_transform = transforms.Compose([

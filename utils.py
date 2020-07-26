@@ -3,7 +3,12 @@ from PIL import Image
 import numpy as np
 
 
-""" Util Functions """
+def get_device():
+    import torch
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print('device: ', device)
+    return device
+
 def load_image(filename, size=None, scale=None):
     img = Image.open(filename)
     if size is not None:
