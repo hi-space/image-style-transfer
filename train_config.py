@@ -17,5 +17,5 @@ style_weight = 1e10
 log_interval = 50
 checkpoint_interval = 500
 
-transfer_learning = False # inference or training first --> False / Transfer learning --> True
+transfer_learning = False 
 ckpt_model_path = os.path.join(checkpoint_dir, "ckpt_epoch_63_batch_id_500.pth") 

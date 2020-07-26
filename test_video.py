@@ -1,22 +1,12 @@
-from __future__ import print_function
-
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
+import cv2
 import os
-from PIL import Image
-from IPython.display import display 
-import matplotlib.pyplot as plt
-from torchvision import datasets
+import re
+import torch
 import torchvision.transforms as transforms
-import torchvision.models as models
 import torchsummary
 import numpy as np
-from collections import namedtuple
 
-import re
-import cv2
+from PIL import Image
 
 from test_config import *
 from models import *
@@ -67,7 +57,6 @@ if __name__ == "__main__":
             save_image(debug_dir + str(frame_cnt) +".png", output[0]) 
     #             out.write(post_process_image(output[0]))
             frame_cnt += 1
-            
 
         cap.release()
         out.release()
