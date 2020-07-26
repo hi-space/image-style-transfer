@@ -1,5 +1,8 @@
+from collections import namedtuple
+
 import torch
 import torch.nn as nn
+import torchvision.models as models
 
 
 class VGG16(torch.nn.Module):
