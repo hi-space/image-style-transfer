@@ -61,7 +61,7 @@ python test_video.py
 
 ## Result Video
 
-[![Midnight In Paris](http://img.youtube.com/vi/KvjJ5BLa058/0.jpg)](https://www.youtube.com/watch?v=KvjJ5BLa058) 
+{% include youtube_video.html id="KvjJ5BLa058" %}  
 
 ---
 
