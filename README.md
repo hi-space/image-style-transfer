@@ -61,7 +61,7 @@ python test_video.py
 
 ## Result Video
 
-{%include youtube_video.html id="KvjJ5BLa058"%}
+[![Image Style Transfer using CNN](http://img.youtube.com/vi/KvjJ5BLa058/0.jpg)](http://www.youtube.com/watch?v=KvjJ5BLa058)
 
 ---
 
