@@ -61,7 +61,7 @@ python test_video.py
 
 ## Result Video
 
-{% include youtube_video.html id="KvjJ5BLa058" %}  
+{%include youtube_video.html id="KvjJ5BLa058"%}
 
 ---
 
