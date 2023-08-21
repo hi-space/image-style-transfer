@@ -163,3 +163,4 @@ python test_video.py
 
 - [Image Style Transfer Using Convolutional Neural Networks (2016, ECCV)](https://arxiv.org/pdf/1603.08155.pdf)
 - [fast_neural_style](https://github.com/pytorch/examples/tree/master/fast_neural_style)
+- [fast-style-transfer-tutorial-pytorch](https://github.com/hoya012/fast-style-transfer-tutorial-pytorch)
